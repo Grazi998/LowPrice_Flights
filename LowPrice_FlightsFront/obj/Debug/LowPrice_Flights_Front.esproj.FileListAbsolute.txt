@@ -1,0 +1,2 @@
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_FlightsFront\obj\Debug\LowPrice_Flights_Front.esproj.SuggestedBindingRedirects.cache
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_FlightsFront\obj\Debug\LowPrice_Flights_Front.esproj.CoreCompileInputs.cache

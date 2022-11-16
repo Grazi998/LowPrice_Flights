@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "LowPrice_Flights_Front", "LowPrice_FlightsFront\LowPrice_Flights_Front.esproj", "{23C54216-D001-4F50-B91C-05231F9A189E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowPrice_Flights_Back", "LowPrice_Flights_Back\LowPrice_Flights_Back.csproj", "{832C3D03-883D-4013-A25B-767AF67B7401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C54216-D001-4F50-B91C-05231F9A189E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{832C3D03-883D-4013-A25B-767AF67B7401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832C3D03-883D-4013-A25B-767AF67B7401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832C3D03-883D-4013-A25B-767AF67B7401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832C3D03-883D-4013-A25B-767AF67B7401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0EEC298-5EEC-4A45-B0FD-CA8BD78E61F5}
+	EndGlobalSection
+EndGlobal
