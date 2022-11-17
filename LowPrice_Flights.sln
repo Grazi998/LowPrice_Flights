@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "LowPrice_Flights_Front", "LowPrice_FlightsFront\LowPrice_Flights_Front.esproj", "{23C54216-D001-4F50-B91C-05231F9A189E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{832C3D03-883D-4013-A25B-767AF67B7401} = {832C3D03-883D-4013-A25B-767AF67B7401}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowPrice_Flights_Back", "LowPrice_Flights_Back\LowPrice_Flights_Back.csproj", "{832C3D03-883D-4013-A25B-767AF67B7401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowPrice_Flights_Back", "LowPrice_Flights_Back\LowPrice_Flights_Back.csproj", "{832C3D03-883D-4013-A25B-767AF67B7401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
