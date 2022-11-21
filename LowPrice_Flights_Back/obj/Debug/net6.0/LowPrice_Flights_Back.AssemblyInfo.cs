@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("622ba4c8-6d1f-4ea6-866b-20a4bec9261c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LowPrice_Flights_Back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

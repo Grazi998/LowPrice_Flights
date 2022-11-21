@@ -5,8 +5,11 @@ C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\LowPrice_Flights_Back.runtimeconfig.json
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\LowPrice_Flights_Back.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\LowPrice_Flights_Back.pdb
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -32,6 +35,4 @@ C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\obj\
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\obj\Debug\net6.0\LowPrice_Flights_Back.pdb
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\obj\Debug\net6.0\LowPrice_Flights_Back.genruntimeconfig.cache
 C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\obj\Debug\net6.0\ref\LowPrice_Flights_Back.dll
-C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Grazi\Documents\VS_Projects\LowPrice_Flights\LowPrice_Flights_Back\bin\Debug\net6.0\libman.json

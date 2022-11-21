@@ -38,8 +38,8 @@ namespace LowPrice_Flights_Back.Controllers
         public async Task<JsonResult> GetAccessToken()
         {
             var APIUrl = "https://test.api.amadeus.com/v1/security/oauth2/token";
-            var APIKey = _config.GetValue<string>("Constants:APIKey");
-            var APISecret = _config.GetValue<string>("Constants:APISecret");
+            var APIKey = _config.GetValue<string>("AmadeusSSAPI:APIKey");
+            var APISecret = _config.GetValue<string>("AmadeusSSAPI:APISecret");
 
             var bodyData = new StringContent(String.Format("grant_type=client_credentials&client_id={0}&client_secret={1}", APIKey, APISecret), Encoding.UTF8, "application/x-www-form-urlencoded");
 
@@ -52,8 +52,8 @@ namespace LowPrice_Flights_Back.Controllers
             return new JsonResult(result);
         }
 
-        [HttpGet("GetFlights")]
-        public async Task<JsonResult> GetFlights()
+        [HttpPost("GetFlights")]
+        public async Task<JsonResult> GetFlights(SearchParameters parameters)
         {
             var token = await GetAccessToken();
 
@@ -70,8 +70,13 @@ namespace LowPrice_Flights_Back.Controllers
                 return new JsonResult(tokenInfo.error_message);
             }
 
-
-            string searchURL = "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=BKK&departureDate=2023-11-01&adults=1&nonStop=false&max=250";
+            string searchURL = String.Format("https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode={0}&destinationLocationCode={1}&departureDate={2}&returnDate={3}&adults={4}&currencyCode={5}",
+                parameters.OriginAirport,
+                parameters.DestinationAirport,
+                parameters.DepartureDate,
+                parameters.ReturnDate,
+                parameters.PassangersNumber,
+                parameters.CurrencyCode);
 
             var requestMessage = new HttpRequestMessage(HttpMethod.Get, searchURL);
 
@@ -82,7 +87,6 @@ namespace LowPrice_Flights_Back.Controllers
             var response = await httpClient.SendAsync(requestMessage);
 
             var result = response.Content.ReadAsStringAsync().Result;
-
 
             return new JsonResult(JSONParser.FromJson<Object>(result.ToString()));
         }
